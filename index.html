@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy policy for PlainWork Growth Publisher, a local tool for publishing ScopeSnap promotional content.">
+<title>Privacy Policy | PlainWork Studio Co</title>
+<style>
+:root { color-scheme: light; font-family: system-ui, -apple-system, Segoe UI, sans-serif; color: #20251f; background: #f7f6f2; }
+body { margin: 0; padding: 3rem 1.25rem; }
+main { max-width: 760px; margin: auto; padding: clamp(1.5rem, 5vw, 3rem); background: white; border: 1px solid #e6e4dc; border-radius: 18px; }
+h1 { margin-top: 0; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; }
+h2 { margin-top: 2rem; font-size: 1.2rem; }
+p, li { line-height: 1.7; }
+.updated { color: #62675f; }
+a { color: #265c47; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="updated">PlainWork Growth Publisher · Effective September 28, 2026</p>
+<p>PlainWork Studio Co (“we,” “us”) operates PlainWork Growth Publisher, a private tool that runs on the operator’s computer to prepare and publish promotional content for ScopeSnap, our digital product. This policy describes information handled by that tool. Etsy and Pinterest separately handle information under their own privacy policies.</p>
+<h2>Information the tool handles</h2>
+<p>The tool does not provide a public account or collect information from Etsy shoppers or Pinterest visitors. When the operator enables a service, the tool handles only the information needed for that task:</p>
+<ul>
+<li><strong>Pinterest:</strong> an operator-supplied access token, selected board ID, public image URLs, and Pin text. Pinterest returns Pin identifiers and publishing responses, which the tool records locally with timestamps and activity messages.</li>
+<li><strong>Notion (optional):</strong> an operator-supplied integration token and destination page ID. The tool sends prepared promotional articles to that page and records the resulting page URL and title locally.</li>
+<li><strong>Gumroad (optional legacy monitor):</strong> an operator-supplied API token and product ID. If enabled, the tool requests sales information and keeps aggregate buyer and revenue counts locally; individual buyer details are not retained in its activity log.</li>
+</ul>
+<p>The tool includes a link to our Etsy listing in promotional content. It does not query Etsy for shopper identities, visits, or sales.</p>
+<h2>Storage and security</h2>
+<p>The tool runs on the operator’s computer and listens only on that computer. API credentials are stored in a local <code>.env</code> file, and publishing history and activity are stored in a local state file. These files are not sent to PlainWork Studio Co by the tool. Credentials are not encrypted by the tool, so the operator should protect the computer and keep the files private. Removing a credential from <code>.env</code> and deleting the local state file removes the corresponding locally stored information.</p>
+<h2>Sharing and service providers</h2>
+<p>The tool sends the content and credentials needed to perform enabled actions directly to Pinterest, Notion, or Gumroad, as applicable. Those services process information under their own terms and privacy policies. We do not sell personal information or use this tool to send unsolicited direct messages.</p>
+<h2>Retention and choices</h2>
+<p>Local publishing records remain on the operator’s computer until the operator removes the state file. Access to each connected service can be revoked through that service’s account settings; the operator should also remove the corresponding token from <code>.env</code>. A Pin or Notion page already published may remain on that service until it is removed there.</p>
+<h2>Children</h2>
+<p>This tool is intended for business promotion and is not directed to children. It does not knowingly collect children’s personal information.</p>
+<h2>Changes and contact</h2>
+<p>We may update this policy when the tool or its data practices change. The effective date above will be revised when that happens. For privacy questions, contact PlainWork Studio Co through the <a href="https://www.etsy.com/shop/PlainWorkStudioCo">Etsy shop</a>.</p>
+</main>
+</body>
+</html>
